@@ -1,6 +1,13 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Code, Database, Globe, Wrench } from "lucide-react";
+import {
+  Code,
+  Database,
+  Globe,
+  InfinityIcon,
+  Settings,
+  Wrench,
+} from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
@@ -20,6 +27,7 @@ const Skills = () => {
         "Next.js",
         "HTML/CSS",
         "MERN Stack",
+        "Electron.js",
       ],
       color: "from-primary to-neon-green",
     },
@@ -29,16 +37,36 @@ const Skills = () => {
       skills: ["MongoDB", "MySQL"],
       color: "from-neon-purple to-primary",
     },
+
+    {
+      icon: <InfinityIcon className="h-6 w-6" />,
+      title: "DevOps & Hosting",
+      skills: [
+        "GitHub Actions",
+        "CI/CD",
+        "Vps",
+        "Nginx",
+        "Linux",
+        "Docker",
+        "Vercel",
+        "Netlify",
+        "Render",
+
+        "CPanel",
+      ],
+      color: "from-tech-blue to-neon-cyan",
+    },
     {
       icon: <Wrench className="h-6 w-6" />,
       title: "Tools & Others",
       skills: [
-        "Electron.js",
-        "GitHub Actions",
-        "CI/CD",
+        "Generative Ai",
+        "UI/UX Design",
         "Figma",
-        "Twilio",
-        "CPanel",
+        "Git",
+        "GitHub",
+        "Postman",
+        "REST APIs",
       ],
       color: "from-tech-blue to-neon-cyan",
     },

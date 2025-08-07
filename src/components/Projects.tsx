@@ -14,6 +14,8 @@ import {
   Users,
   FileText,
   BarChart3,
+  Bot,
+  Book,
 } from "lucide-react";
 
 const Projects = () => {
@@ -34,6 +36,9 @@ const Projects = () => {
         "Express.js",
         "Prisma",
         "MySQL",
+        "VPS",
+        "Nginx",
+        "pm2",
       ],
       features: [
         "Receipt generation",
@@ -50,6 +55,45 @@ const Projects = () => {
       },
       icon: <Database className="h-6 w-6" />,
       type: "Desktop Application",
+      for: "Freelance Project",
+    },
+
+    {
+      title: "Intelligence AI",
+      description:
+        "A responsive, full-stack chat application featuring multimodal AI conversations with Groq's high-speed LLM, persistent chat history, and an intuitive user interface.",
+      longDescription:
+        "This project integrates a React frontend with an Express.js backend to provide a seamless chat experience. It supports both text and image-based messages, leveraging Groq's API for fast, AI-powered responses. Conversations are stored in MongoDB, ensuring a persistent chat history.",
+      technologies: [
+        "React.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Vite",
+        "Node.js",
+        "Express.js",
+        "Mongoose",
+        "MongoDB",
+        "Groq API",
+        "VPS",
+        "Nginx",
+        "pm2",
+      ],
+      features: [
+        "Multimodal chat (text and image)",
+        "Persistent conversation history",
+        "Optimistic UI updates",
+        "Dynamic chat titles",
+        "Responsive design",
+        "Robust API error handling",
+      ],
+      links: {
+        github: "https://github.com/lovesinghkalbhor/intelligence",
+        live: "https://intelligence.projects.growthifyservices.in/",
+        docs: "https://github.com/lovesinghkalbhor/intelligence",
+      },
+      icon: <Bot className="h-6 w-6" />,
+      type: "Web Application",
+      for: "Personal Project",
     },
     {
       title: "Growthify Services Website",
@@ -58,11 +102,12 @@ const Projects = () => {
       longDescription:
         "Designed and developed the entire website including landing pages, service pages, and contact forms with responsive design and smooth animations.",
       technologies: [
-        "React.js",
         "Next.js",
         "TailwindCSS",
         "Framer Motion",
-        "Vercel",
+
+        "Cpanel",
+        "Shared Hosting",
       ],
       features: [
         "Responsive design",
@@ -77,6 +122,7 @@ const Projects = () => {
         docs: "https://share.google/jocWm9UiXi0da1r1N",
       },
       icon: <BarChart3 className="h-6 w-6" />,
+      for: "Freelance Project",
       type: "Web Application",
     },
     {
@@ -86,20 +132,17 @@ const Projects = () => {
       longDescription:
         "Full-stack application with user authentication, ride booking system, real-time tracking, and admin dashboard for managing operations.",
       technologies: [
-        "React.js",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "Socket.io",
+        "Next.js",
+        "TailwindCSS",
         "Google Maps API",
+        "Shared Hosting",
+        "Cpanel",
       ],
       features: [
-        "Real-time booking",
-        "Route optimization",
-        "Payment integration",
-        "User authentication",
-        "Admin dashboard",
-        "Live tracking",
+        "Call to Service Provider",
+        "Check Pickup Location",
+        "Book Ride",
+        "Minimal UI",
       ],
       links: {
         github: "https://github.com/lovesinghkalbhor/Ridenow",
@@ -108,6 +151,36 @@ const Projects = () => {
       },
       icon: <Users className="h-6 w-6" />,
       type: "Web Application",
+      for: "Freelance Project",
+    },
+    {
+      title: "Arvind Kumar NIT Surat - Educational Platform",
+      description:
+        "An online educational platform for students preparing for NIOS, JEE, and NEET exams, providing video lectures, study materials, solved assignments (TMA), and practical files.",
+      longDescription:
+        "The platform, led by an NITian, focuses on guiding students to academic success. It offers a range of digital products including solved assignments (TMA), practical files for various subjects, and up-to-date information for NIOS students. The site functions as an e-commerce platform for digital educational resources.",
+      technologies: [
+        "Website (HTML/CSS/JS)",
+        "php",
+        "Payment Gateway Integration",
+        "Digital Product Delivery",
+      ],
+      features: [
+        "NIOS lecture videos",
+        "Solved TMA (Tutor Marked Assignments)",
+        "Solved practical files",
+        "Notes and sample papers",
+        "E-commerce functionality for digital products",
+        "Instant download and email delivery",
+      ],
+      links: {
+        github: null,
+        live: "https://arvindkumarnitsurat.com/",
+        docs: null,
+      },
+      icon: <Book className="h-6 w-6" />,
+      for: "Freelance Project",
+      type: "Educational E-commerce Website",
     },
   ];
 
@@ -143,7 +216,7 @@ const Projects = () => {
                           <div className="p-2 rounded-lg bg-gradient-to-r from-primary to-neon-cyan text-background">
                             {project.icon}
                           </div>
-                          <div>
+                          <div className="space-x-2">
                             <CardTitle className="text-xl mb-1">
                               {project.title}
                             </CardTitle>
@@ -152,6 +225,12 @@ const Projects = () => {
                               className="bg-primary/10 text-primary border-primary/20 text-xs"
                             >
                               {project.type}
+                            </Badge>
+                            <Badge
+                              variant="secondary"
+                              className="bg-primary/10 text-primary border-primary/20 text-xs"
+                            >
+                              {project.for}
                             </Badge>
                           </div>
                         </div>
