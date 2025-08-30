@@ -64,14 +64,14 @@ const Contact = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">+91 9340233410</p>
+                  <p className="text-muted-foreground">+91 8815152801</p>
                   <Button
                     variant="outline"
                     size="sm"
                     className="mt-3 border-primary/30 text-primary hover:bg-primary/10"
                     asChild
                   >
-                    <a href="tel:+919340233410">Call Now</a>
+                    <a href="tel:+918815152801">Call Now</a>
                   </Button>
                 </CardContent>
               </Card>
@@ -240,7 +240,7 @@ const Contact = () => {
                         asChild
                       >
                         <a
-                          href="https://www.linkedin.com/in/love-singh-01a073242/"
+                          href="https://www.linkedin.com/in/ayush-website205822248/"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -255,7 +255,7 @@ const Contact = () => {
                         className="border-primary/30 text-primary hover:bg-primary/10 h-auto py-4 flex-col gap-2"
                         asChild
                       >
-                        <a href="tel:+919340233410">
+                        <a href="tel:+918815152801">
                           <Phone className="h-6 w-6" />
                           <span className="text-sm">For quick calls</span>
                         </a>
@@ -296,7 +296,7 @@ const Contact = () => {
                     className="border-primary text-primary hover:bg-primary/10"
                     asChild
                   >
-                    <a href="tel:+919340233410">
+                    <a href="tel:+918815152801">
                       <Phone className="mr-2 h-5 w-5" />
                       Schedule a Call
                     </a>

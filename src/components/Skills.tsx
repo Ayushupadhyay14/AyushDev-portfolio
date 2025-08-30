@@ -14,27 +14,32 @@ const Skills = () => {
     {
       icon: <Code className="h-6 w-6" />,
       title: "Languages",
-      skills: ["JavaScript", "TypeScript", "C/C++", "SQL"],
+      skills: ["Python", "(OOPS)", "C/C++", "SQL"],
       color: "from-neon-cyan to-tech-blue",
     },
     {
       icon: <Globe className="h-6 w-6" />,
       title: "Frameworks & Technologies",
       skills: [
-        "React.js",
-        "Node.js",
-        "Express.js",
-        "Next.js",
-        "HTML/CSS",
-        "MERN Stack",
-        "Electron.js",
+        "Django",
+        "FastAPI",
+        "Django REST Framework (DRF)",
+        // "HTML/CSS",
+      ],
+      color: "from-primary to-neon-green",
+    },
+    {
+      icon: <Globe className="h-6 w-6" />,
+      title: "Machine Learning (Basics)",
+      skills: [
+        "PyTorch",
       ],
       color: "from-primary to-neon-green",
     },
     {
       icon: <Database className="h-6 w-6" />,
       title: "Databases",
-      skills: ["MongoDB", "MySQL"],
+      skills: ["MongoDB", "DBMS","PostgreSQL","Redis"],
       color: "from-neon-purple to-primary",
     },
 
@@ -46,13 +51,9 @@ const Skills = () => {
         "CI/CD",
         "Vps",
         "Nginx",
-        "Linux",
         "Docker",
         "Vercel",
-        "Netlify",
         "Render",
-
-        "CPanel",
       ],
       color: "from-tech-blue to-neon-cyan",
     },
@@ -62,7 +63,6 @@ const Skills = () => {
       skills: [
         "Generative Ai",
         "UI/UX Design",
-        "Figma",
         "Git",
         "GitHub",
         "Postman",

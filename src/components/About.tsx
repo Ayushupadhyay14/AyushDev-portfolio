@@ -29,7 +29,7 @@ const About = () => {
                   <div className="flex items-center gap-3 mb-4">
                     <Calendar className="h-5 w-5 text-primary" />
                     <span className="text-lg font-semibold">
-                      2+ Years Experience
+                      1+ Years Experience
                     </span>
                   </div>
                   <div className="flex items-center gap-3">
@@ -49,7 +49,7 @@ const About = () => {
                 </p>
                 <p className="text-muted-foreground">
                   <span className="text-primary font-semibold">Phone:</span> +91
-                  9340233410
+                  8815152801
                 </p>
               </div>
             </div>
@@ -57,14 +57,11 @@ const About = () => {
             {/* Right Column - Description */}
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate Full Stack Developer with expertise in modern
-                web technologies. I specialize in building scalable applications
-                using the MERN stack and have experience in both frontend and
-                backend development.
+                I’m a passionate developer who loves building clean, scalable, and impactful applications. With hands-on experience in delivering real-world projects, I enjoy solving problems, improving workflows, and creating solutions that make a difference.
               </p>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Currently working as a freelancer, I've successfully delivered
+                Currently working as a full Time, I've successfully delivered
                 multiple projects ranging from desktop applications to
                 comprehensive web solutions for various clients.
               </p>
@@ -103,7 +100,6 @@ const About = () => {
                     variant="secondary"
                     className="bg-primary/10 text-primary border-primary/20"
                   >
-                    UI/UX Design
                   </Badge>
                 </div>
               </div>
@@ -114,5 +110,4 @@ const About = () => {
     </section>
   );
 };
-
 export default About;

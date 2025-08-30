@@ -24,9 +24,9 @@ const Education = () => {
     },
     {
       degree: "Higher Secondary School (XII)",
-      institution: "Pragati H.S School",
+      institution: "N.M. Memorial Higher Secondary School",
       location: "Indore, MP",
-      period: "2018 – 2020",
+      period: "2021 – 2022",
       status: "Completed",
       description:
         "Science stream with focus on Mathematics, Physics, and Chemistry, building strong analytical and problem-solving foundation.",
@@ -34,9 +34,9 @@ const Education = () => {
     },
     {
       degree: "High School (X)",
-      institution: "Saint Patricks H.S School",
+      institution: "N.M. Memorial Higher Secondary School",
       location: "Indore, MP",
-      period: "2018",
+      period: "2020",
       status: "Completed",
       description:
         "Foundation education with emphasis on core subjects and extracurricular activities.",
