@@ -1,87 +1,100 @@
-# Portfolio Website
-[Visit My Portfolio](https://www.love.portfolio.growthifyservices.in)
-A modern, minimalist portfolio website showcasing my experience as a Full Stack Developer. Built with cutting-edge technologies and featuring a sleek dark theme with neon accents.
+# Ayush Upadhyay – Portfolio Website
 
-## 🚀 Features
+<!-- [Visit My Portfolio](https://love.portfolio.growthifyservices.in) -->
 
-- **Responsive Design**: Optimized for all devices and screen sizes
-- **Modern UI/UX**: Dark theme with neon accents and smooth animations
-- **Single Page Application**: Smooth scrolling navigation between sections
-- **SEO Optimized**: Semantic HTML and meta tags for better search visibility
-- **Fast Performance**: Lightweight and optimized for quick loading
+A modern, minimalist portfolio website showcasing my skills and experience as a **Python & Full Stack Developer**. Built with cutting-edge technologies and designed with a sleek dark theme and neon accents.
+
+---
+
+## 👨‍💻 About Me
+
+I’m **Ayush Upadhyay**, an enthusiastic and detail-oriented **Python Developer** from Indore, Madhya Pradesh.
+I specialize in **backend development** using **Django & FastAPI**, **REST API design**, and **relational databases** (MySQL, PostgreSQL).
+
+💡 Passionate about writing **clean, maintainable code** and building **scalable backend systems**.
+🚀 Currently working as a **Python Developer at Growthify Services**, actively contributing to impactful projects.
+
+---
+
+## 🚀 Features of My Portfolio
+
+- **Responsive Design** – Works seamlessly across devices
+- **Modern UI/UX** – Dark theme + neon accent colors
+- **Smooth Animations** – Transitions & hover effects
+- **SEO Optimized** – Better visibility on search engines
+- **Single Page Navigation** – Fast, SPA-like experience
+
+---
 
 ## 📋 Sections
 
-- **Hero**: Eye-catching introduction with call-to-action buttons
-- **About**: Personal information and professional summary
-- **Skills**: Technical expertise with visual indicators
-- **Experience**: Professional work history and achievements
-- **Projects**: Showcase of key development projects
-- **Education**: Academic background and certifications
-- **Contact**: Professional contact information and availability
+- **Hero** – Eye-catching introduction & call-to-action
+- **About** – My background & professional summary
+- **Skills** – Tech stack with visual indicators
+- **Experience** – Work history & achievements
+- **Projects** – Key development showcases
+- **Education** – Academic background & certifications
+- **Contact** – Reach out directly
 
-## 🛠️ Getting Started
-
-### Prerequisites
-
-- Node.js (v18 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone <YOUR_GIT_URL>
-cd <YOUR_PROJECT_NAME>
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-4. Open your browser and navigate to `http://localhost:8080`
+---
 
 ## 💻 Tech Stack
 
-- **Framework**: React 18 with TypeScript
-- **Build Tool**: Vite for fast development and building
-- **Styling**: Tailwind CSS with custom design tokens
-- **UI Components**: shadcn/ui component library
-- **Icons**: Lucide React for consistent iconography
-- **Animations**: CSS transitions and transforms
-- **Routing**: React Router for navigation
+- **Languages**: Python (Advanced), JavaScript (Basic)
+- **Backend Frameworks**: Django, FastAPI, DRF
+- **Databases**: PostgreSQL, MySQL, MongoDB, Redis
+- **DevOps & Deployment**: Docker, AWS S3, Cloudinary, Heroku, Render
+- **Frontend & UI**: HTML5, CSS3, Bootstrap, Tailwind
+- **Other Tools**: Git, GitHub, JWT Authentication, Apache Kafka (CLI)
 
-## 🎨 Design System
+---
 
-- **Theme**: Dark mode with neon accent colors
-- **Typography**: Clean, modern font hierarchy
-- **Colors**: HSL-based semantic color tokens
-- **Animations**: Smooth transitions and hover effects
-- **Layout**: CSS Grid and Flexbox for responsive design
+## 📂 Projects
 
-## 📱 Responsive Design
+### 🔹 Chat App
 
-The portfolio is fully responsive and optimized for:
-- Desktop (1920px+)
-- Laptop (1024px - 1919px)
-- Tablet (768px - 1023px)
-- Mobile (320px - 767px)
+- Built with **FastAPI (REST + WebSockets)**
+- **MongoDB / SQL** for messages, users, and rooms
+- **WebSockets** for real-time chat
+- **JWT Authentication** for secure login
+- Deployed using **Docker** & integrated with **AWS S3 / Cloudinary**
 
-## 🚀 Deployment
+### 🔹 Office Employees Management System (OEMS)
 
-This project can be deployed on any static hosting platform:
-- Vercel
-- Netlify
-- GitHub Pages
-- AWS S3 + CloudFront
+- Developed with **Django + MySQL**
+- CRUD operations with **Django ORM & QuerySets**
+- Secure authentication & authorization
+- Responsive UI using **Bootstrap**
+
+---
+
+## 🎓 Education
+
+- **BCA** – Shri Vaishnav Vidyapeeth Vishwavidyalaya (2022–2025)
+- **12th PCM** – NM Memorial H.S. School (2021–2022)
+
+---
+
+## 🏆 Certifications
+
+- **Python** – Internshala
+- **SQL** – NPTEL
+- **Databases** – NPTEL Course
+- **Full Stack Development Masterclass (Batch 3.0)**
+
+---
+
+## 📞 Contact
+
+- 📧 Email: [Ayushup17@yahoo.com](mailto:Ayushup17@yahoo.com)
+- 📱 Phone: +91 8815152801
+- 🌍 Location: Indore, Madhya Pradesh
+- 💻 GitHub: [github.com/Ayushupadhyay14](https://github.com/Ayushupadhyay14)
+
+---
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This portfolio is open-source and available under the [MIT License](LICENSE).
+
 

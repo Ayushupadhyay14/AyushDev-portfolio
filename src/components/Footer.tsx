@@ -17,16 +17,14 @@ const Footer = () => {
           {/* Brand & Description */}
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-neon-cyan bg-clip-text text-transparent mb-4">
-              Love Singh Kalbhor
+              Ayush Upadhyay
             </h3>
             <p className="text-muted-foreground mb-6 max-w-md leading-relaxed">
-              Full Stack Developer passionate about creating innovative web
-              solutions. Specializing in MERN stack development and modern web
-              technologies.
+               Passionate about building scalable web applications and delivering innovative solutions. Specialized in Python development with experience in full-stack development.
             </p>
             <div className="flex gap-4">
               <a
-                href="https://github.com/lovesinghkalbhor"
+                href="https://github.com/Ayushupadhyay14"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg border border-primary/30 hover:border-primary hover:bg-primary/10 hover:shadow-[0_0_20px_hsl(var(--primary)/0.4)] transition-all duration-300 group"
@@ -34,7 +32,7 @@ const Footer = () => {
                 <Github className="h-5 w-5 text-primary group-hover:scale-110 transition-transform" />
               </a>
               <a
-                href="https://www.linkedin.com/in/love-singh-01a073242/"
+                href="https://www.linkedin.com/in/ayush-website205822248/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg border border-primary/30 hover:border-primary hover:bg-primary/10 hover:shadow-[0_0_20px_hsl(var(--primary)/0.4)] transition-all duration-300 group"
@@ -42,13 +40,13 @@ const Footer = () => {
                 <Linkedin className="h-5 w-5 text-primary group-hover:scale-110 transition-transform" />
               </a>
               <a
-                href="mailto:lovesinghkalbhor@gmail.com"
+                href="mailto:Ayushup17@yahoo.com"
                 className="p-2 rounded-lg border border-primary/30 hover:border-primary hover:bg-primary/10 hover:shadow-[0_0_20px_hsl(var(--primary)/0.4)] transition-all duration-300 group"
               >
                 <Mail className="h-5 w-5 text-primary group-hover:scale-110 transition-transform" />
               </a>
               <a
-                href="tel:+919340233410"
+                href="tel:+918815152801"
                 className="p-2 rounded-lg border border-primary/30 hover:border-primary hover:bg-primary/10 hover:shadow-[0_0_20px_hsl(var(--primary)/0.4)] transition-all duration-300 group"
               >
                 <Phone className="h-5 w-5 text-primary group-hover:scale-110 transition-transform" />
@@ -88,10 +86,10 @@ const Footer = () => {
               <div>
                 <p className="text-muted-foreground">Email</p>
                 <a
-                  href="mailto:lovesinghkalbhor@gmail.com"
+                  href="mailto:Ayushup17@yahoo.com"
                   className="text-primary hover:text-neon-cyan transition-colors"
                 >
-                  lovesinghkalbhor@gmail.com
+                  Ayushup17@yahoo.com
                 </a>
               </div>
               <div>
@@ -100,7 +98,7 @@ const Footer = () => {
                   href="tel:+919340233410"
                   className="text-primary hover:text-neon-cyan transition-colors"
                 >
-                  +91 9340233410
+                  +91 8815152801
                 </a>
               </div>
               <div>
@@ -114,7 +112,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="mt-12 pt-8 border-t border-primary/20 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-2 text-muted-foreground text-sm">
-            <span>© 2025 Love Singh Kalbhor. Built with</span>
+            <span>© 2025 Ayush Upadhyay. Built with</span>
             <Heart className="h-4 w-4 text-red-500 animate-pulse" />
             <span>using React & TypeScript</span>
           </div>

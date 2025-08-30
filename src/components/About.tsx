@@ -45,7 +45,7 @@ const About = () => {
               <div className="space-y-2">
                 <p className="text-muted-foreground">
                   <span className="text-primary font-semibold">Email:</span>{" "}
-                  lovesinghkalbhor@gmail.com
+                  Ayushup17@yahoo.com
                 </p>
                 <p className="text-muted-foreground">
                   <span className="text-primary font-semibold">Phone:</span> +91

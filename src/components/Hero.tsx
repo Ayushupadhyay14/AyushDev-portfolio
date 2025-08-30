@@ -40,21 +40,18 @@ const Hero = () => {
 
           {/* Name with glow effect */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 p-10 rounded-2xl bg-gradient-to-r from-primary via-neon-cyan to-primary bg-clip-text text-transparent ">
-            Love Singh Kalbhor
+            Ayush Upadhyay
           </h1>
 
           {/* Subtitle with typewriter effect */}
           <h2 className="text-2xl md:text-3xl font-light mb-8 text-muted-foreground">
-            Full Stack Developer & Software Engineer
+             Python Developer & Software Engineer
           </h2>
 
           {/* Description */}
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            Passionate about creating scalable web applications and innovative
-            solutions. Specialized in MERN stack with 2+ years of experience in
-            full-stack development.
+            Passionate about building scalable web applications and delivering innovative solutions. Specialized in Python development with experience in full-stack development.
           </p>
-
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Button
@@ -65,7 +62,7 @@ const Hero = () => {
               <Mail className="mr-2 h-5 w-5" />
               Hire Me
             </Button>
-            <a href="/Love_Singh_Resume.pdf" download={"Love_Singh_Resume.pdf"}>
+            <a href="/Ayush-Upadhyay-Resume.pdf" download={"Ayush-Upadhyay-Resume.pdf.pdf"}>
               <Button
                 variant="outline"
                 size="lg"
@@ -80,7 +77,7 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center gap-6 mb-16">
             <a
-              href="https://github.com/lovesinghkalbhor"
+              href="https://github.com/Ayushupadhyay14"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-primary/30 hover:border-primary hover:bg-primary/10 hover:shadow-[0_0_20px_hsl(var(--primary)/0.4)] transition-all duration-300 group"
@@ -88,7 +85,7 @@ const Hero = () => {
               <Github className="h-6 w-6 text-primary group-hover:scale-110 transition-transform" />
             </a>
             <a
-              href="https://www.linkedin.com/in/love-singh-01a073242/"
+              href="https://www.linkedin.com/in/ayush-website205822248/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-primary/30 hover:border-primary hover:bg-primary/10 hover:shadow-[0_0_20px_hsl(var(--primary)/0.4)] transition-all duration-300 group"
@@ -96,13 +93,13 @@ const Hero = () => {
               <Linkedin className="h-6 w-6 text-primary group-hover:scale-110 transition-transform" />
             </a>
             <a
-              href="mailto:lovesinghkalbhor@gmail.com"
+              href="mailto:Ayushup17@yahoo.com"
               className="p-3 rounded-full border border-primary/30 hover:border-primary hover:bg-primary/10 hover:shadow-[0_0_20px_hsl(var(--primary)/0.4)] transition-all duration-300 group"
             >
               <Mail className="h-6 w-6 text-primary group-hover:scale-110 transition-transform" />
             </a>
             <a
-              href="tel:+919340233410"
+              href="tel:+918815152801"
               className="p-3 rounded-full border border-primary/30 hover:border-primary hover:bg-primary/10 hover:shadow-[0_0_20px_hsl(var(--primary)/0.4)] transition-all duration-300 group"
             >
               <Phone className="h-6 w-6 text-primary group-hover:scale-110 transition-transform" />

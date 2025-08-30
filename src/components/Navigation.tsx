@@ -44,7 +44,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("hero")}
             className="text-xl font-bold bg-gradient-to-r from-primary to-neon-cyan bg-clip-text text-transparent hover:scale-105 transition-transform"
           >
-            Love Singh
+           Ayush Upadhyay
           </button>
 
           {/* Desktop Navigation */}
@@ -64,8 +64,8 @@ const Navigation = () => {
           {/* Desktop CTA */}
           <a
             className="hidden md:flex"
-            href="/Love_Singh_Resume.pdf"
-            download={"Love_Singh_Resume.pdf"}
+            href="/Ayush-Upadhyay-Resume.pdf"
+            download={"Ayush-Upadhyay-Resume.pdf"}
           >
             <Button
               variant="outline"

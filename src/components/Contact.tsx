@@ -41,7 +41,7 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    lovesinghkalbhor@gmail.com
+                    Ayushup17@yahoo.com
                   </p>
                   <Button
                     variant="outline"
@@ -49,7 +49,7 @@ const Contact = () => {
                     className="mt-3 border-primary/30 text-primary hover:bg-primary/10"
                     asChild
                   >
-                    <a href="mailto:lovesinghkalbhor@gmail.com">Send Email</a>
+                    <a href="mailto:lAyushup17@yahoo.com">Send Email</a>
                   </Button>
                 </CardContent>
               </Card>
@@ -227,7 +227,7 @@ const Contact = () => {
                         className="border-primary/30 text-primary hover:bg-primary/10 h-auto py-4 flex-col gap-2"
                         asChild
                       >
-                        <a href="mailto:lovesinghkalbhor@gmail.com">
+                        <a href="mailto:lAyushup17@yahoo.com">
                           <Mail className="h-6 w-6" />
                           <span className="text-sm">
                             For detailed discussions
@@ -285,7 +285,7 @@ const Contact = () => {
                     className="bg-gradient-to-r from-primary to-neon-cyan hover:shadow-[0_0_30px_hsl(var(--primary)/0.6)] transition-all duration-300"
                     asChild
                   >
-                    <a href="mailto:lovesinghkalbhor@gmail.com">
+                    <a href="mailto:lAyushup17@yahoo.com">
                       <Mail className="mr-2 h-5 w-5" />
                       Start a Conversation
                     </a>

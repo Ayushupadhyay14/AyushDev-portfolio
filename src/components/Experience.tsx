@@ -5,9 +5,9 @@ import { Calendar, MapPin, Briefcase } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Full Stack Developer / Freelancer",
+      title: "Python Developer / Freelancer",
       company: "Growthify Services",
-      location: "Remote",
+      location: "Full time",
       period: "Jan 2025 – May 2025",
       type: "Current",
       achievements: [
@@ -17,27 +17,27 @@ const Experience = () => {
         "Managed and communicated with multiple clients, gathering requirements and delivering scalable solutions",
       ],
       technologies: [
-        "Electron.js",
-        "MERN",
-        "TypeScript",
-        "GitHub Actions",
-        "MySQL",
+        "Python",
+        "Django",
+        "Django REST",
+        "Fast API",
+        "DBMS",
       ],
     },
-    {
-      title: "Frontend Developer",
-      company: "HeroXHost",
-      location: "Remote",
-      period: "May 2023 – Dec 2024",
-      type: "Previous",
-      achievements: [
-        "Designed and implemented responsive websites and single-page applications",
-        "Integrated dynamic content using AJAX and modern JavaScript",
-        "Converted Figma designs into live React interfaces",
-        "Collaborated with design team to improve user experience",
-      ],
-      technologies: ["React.js", "HTML/CSS", "JavaScript", "Figma"],
-    },
+    // {
+    //   title: "Frontend Developer",
+    //   company: "HeroXHost",
+    //   location: "Remote",
+    //   period: "May 2023 – Dec 2024",
+    //   type: "Previous",
+    //   achievements: [
+    //     "Designed and implemented responsive websites and single-page applications",
+    //     "Integrated dynamic content using AJAX and modern JavaScript",
+    //     "Converted Figma designs into live React interfaces",
+    //     "Collaborated with design team to improve user experience",
+    //   ],
+    //   technologies: ["React.js", "HTML/CSS", "JavaScript", "Figma"],
+    // },
   ];
 
   return (
