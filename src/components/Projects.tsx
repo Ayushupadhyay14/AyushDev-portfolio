@@ -49,8 +49,8 @@ const Projects = () => {
         "Twilio-based SMS notifications",
       ],
       links: {
-        github: "https://github.com/lovesinghkalbhor/GiveWise_Donation",
-        live: "https://github.com/lovesinghkalbhor/GiveWise_Donation/releases/tag/v1.0.11",
+        github: "",
+        live: "",
         docs: "https://drive.google.com/file/d/156Pxd_evkKFUf-KJS6edTvYWW7aZlHcY/view",
       },
       icon: <Database className="h-6 w-6" />,
@@ -87,9 +87,9 @@ const Projects = () => {
         "Robust API error handling",
       ],
       links: {
-        github: "https://github.com/lovesinghkalbhor/intelligence",
+        github: "",
         live: "https://intelligence.projects.growthifyservices.in/",
-        docs: "https://github.com/lovesinghkalbhor/intelligence",
+        docs: "",
       },
       icon: <Bot className="h-6 w-6" />,
       type: "Web Application",
@@ -117,7 +117,7 @@ const Projects = () => {
         "Performance optimization",
       ],
       links: {
-        github: "https://github.com/lovesinghkalbhor/Growthify",
+        // github: "https://github.com/lovesinghkalbhor/Growthify",
         live: "https://growthifyservices.in/",
         docs: "https://share.google/jocWm9UiXi0da1r1N",
       },
@@ -145,7 +145,7 @@ const Projects = () => {
         "Minimal UI",
       ],
       links: {
-        github: "https://github.com/lovesinghkalbhor/Ridenow",
+        // github: "https://github.com/lovesinghkalbhor/Ridenow",
         live: "https://www.ridenowindore.com/",
         docs: "https://share.google/Tc5b5sxTiAgOFTtKc",
       },
@@ -361,7 +361,7 @@ const Projects = () => {
               asChild
             >
               <a
-                href="https://github.com/lovesinghkalbhor"
+                href="https://github.com/Ayushupadhyay14/AyushDev-portfolio"
                 target="_blank"
                 rel="noopener noreferrer"
               >

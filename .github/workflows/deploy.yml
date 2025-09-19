@@ -1,0 +1,41 @@
+name: Deploy Portfolio   # workflow ka naam
+
+# Kab chalega?
+on:
+  push:
+    branches:
+      - main   # jab bhi main branch pe push hoga
+
+jobs:
+  build-deploy:          # job ka naam
+    runs-on: ubuntu-latest   # GitHub ka server (Linux machine)
+
+    steps:
+      # Step 1: Repo clone karo
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      # Step 2: Node.js install karo
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      # Step 3: Dependencies install karo
+      - name: Install Dependencies
+        run: npm install
+
+      # Step 4: Project build karo
+      - name: Build Project
+        run: npm run build
+
+      # Step 5: Custom Domain (optional)
+      - name: Add CNAME File
+        # run: echo "love.portfolio.growthifyservices.in" > ./dist/CNAME
+
+      # Step 6: Deploy GitHub Pages pe
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist   # build output folder
