@@ -113,7 +113,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="mt-12 pt-8 border-t border-primary/20 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-2 text-muted-foreground text-sm">
-            <span>© 2025 Ayush Upadhyay. Built with</span>
+            <span>© {new Date().getFullYear()} Ayush Upadhyay. Built with</span>
             <Heart className="h-4 w-4 text-red-500 animate-pulse" />
             <span>using React & TypeScript</span>
           </div>
