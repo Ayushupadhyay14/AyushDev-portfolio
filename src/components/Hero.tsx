@@ -60,7 +60,7 @@ const Hero = () => {
 
           {/* Description */}
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            Passionate about building scalable web applications and delivering innovative solutions. Specialized in Python development with experience in full-stack development.
+            I help businesses build professional websites and custom software solutions — from concept to deployment. Specialized in Python/Django and full-stack development, with a focus on clean, reliable delivery.
           </p>
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">

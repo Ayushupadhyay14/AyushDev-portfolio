@@ -20,7 +20,7 @@ const Footer = () => {
               Ayush Upadhyay
             </h3>
             <p className="text-muted-foreground mb-6 max-w-md leading-relaxed">
-               Passionate about building scalable web applications and delivering innovative solutions. Specialized in Python development with experience in full-stack development.
+               I help businesses build professional websites and custom software solutions — from concept to deployment. Specialized in Python/Django and full-stack development, with a focus on clean, reliable delivery.
             </p>
             <div className="flex gap-4">
               <a
@@ -62,6 +62,7 @@ const Footer = () => {
             <nav className="space-y-2">
               {[
                 { label: "About Me", id: "about" },
+                { label: "Services", id: "services" },
                 { label: "Skills", id: "skills" },
                 { label: "Experience", id: "experience" },
                 { label: "Projects / Portfolio", id: "projects" },
