@@ -64,7 +64,7 @@ const Footer = () => {
                 { label: "About Me", id: "about" },
                 { label: "Skills", id: "skills" },
                 { label: "Experience", id: "experience" },
-                { label: "Projects", id: "projects" },
+                { label: "Projects / Portfolio", id: "projects" },
               ].map((item) => (
                 <button
                   key={item.id}

@@ -21,6 +21,34 @@ import {
 const Projects = () => {
   const projects = [
     {
+      title: "Builds Your Mind",
+      description:
+        "An e-commerce and informational platform for Eco-Friendly Educational Kits for Schools, Homes, and Businesses by Harmono Pvt. Ltd.",
+      longDescription:
+        "Developed a responsive web application focusing on STEM learning and DIY science kits. The platform features an intuitive UI designed to promote eco-friendly education products seamlessly.",
+      technologies: [
+        "Python",
+        "Django",
+        "React.js",
+        "TailwindCSS",
+        "Vite",
+      ],
+      features: [
+        "Responsive educational platform",
+        "Product showcasing and details",
+        "Clean, modern UI/UX",
+        "SEO optimized",
+      ],
+      links: {
+        github: "",
+        live: "https://buildsyourmind.in/",
+        docs: "",
+      },
+      icon: <Book className="h-6 w-6" />,
+      type: "Web Application",
+      for: "Freelance Project",
+    },
+    {
       title: "GiveWise - Donation Management CRM",
       description:
         "A comprehensive desktop-based CRM software for NGOs to manage donations, automate receipt generation, send SMS receipts via Twilio, and filter donation data by date or category.",
@@ -191,7 +219,7 @@ const Projects = () => {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-neon-cyan bg-clip-text text-transparent">
-              Featured Projects
+              Projects / Portfolio
             </h2>
             <div className="h-1 w-20 bg-gradient-to-r from-primary to-neon-cyan mx-auto rounded-full" />
             <p className="text-lg text-muted-foreground mt-6 max-w-2xl mx-auto">

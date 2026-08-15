@@ -5,11 +5,30 @@ import { Calendar, MapPin, Briefcase } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
+      title: "Back End Developer",
+      company: "BI Hub Solution",
+      location: "Remote",
+      period: "Apr 2026 – Present",
+      type: "Current",
+      achievements: [
+        "Back-End Web Development and system design",
+      ],
+      technologies: [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "ClickHouse",
+        "Redis",
+        "REST APIs",
+        "Swagger API",
+      ],
+    },
+    {
       title: "Python Developer / Freelancer",
       company: "Growthify Services",
       location: "Full time",
       period: "Jan 2025 – May 2025",
-      type: "Current",
+      type: "Previous",
       achievements: [
         "Developed full-stack web and desktop applications with high performance and responsiveness",
         "Designed and maintained CI/CD pipelines using GitHub Actions and CPanel",
@@ -143,19 +162,19 @@ const Experience = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
             <div className="text-center p-6 rounded-xl border border-primary/20 bg-card hover:border-primary/40 transition-all duration-300">
-              <div className="text-3xl font-bold text-primary mb-2">2+</div>
+              <div className="text-3xl font-bold text-primary mb-2">3+</div>
               <div className="text-sm text-muted-foreground">
                 Years Experience
               </div>
             </div>
             <div className="text-center p-6 rounded-xl border border-primary/20 bg-card hover:border-primary/40 transition-all duration-300">
-              <div className="text-3xl font-bold text-primary mb-2">10+</div>
+              <div className="text-3xl font-bold text-primary mb-2">15+</div>
               <div className="text-sm text-muted-foreground">
                 Projects Completed
               </div>
             </div>
             <div className="text-center p-6 rounded-xl border border-primary/20 bg-card hover:border-primary/40 transition-all duration-300">
-              <div className="text-3xl font-bold text-primary mb-2">5+</div>
+              <div className="text-3xl font-bold text-primary mb-2">10+</div>
               <div className="text-sm text-muted-foreground">Happy Clients</div>
             </div>
             <div className="text-center p-6 rounded-xl border border-primary/20 bg-card hover:border-primary/40 transition-all duration-300">

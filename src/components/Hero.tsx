@@ -31,10 +31,20 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-6 mt-20 relative z-10">
+      <div className="container mx-auto px-6 mt-32 pt-10 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
+          {/* Profile Picture */}
+          <div className="mb-8 relative inline-block animate-fade-in">
+            <div className="absolute inset-0 bg-gradient-to-r from-primary to-neon-cyan rounded-full blur-md opacity-50 animate-pulse"></div>
+            <img 
+              src="/ayush-profile.jpeg" 
+              alt="Ayush Upadhyay" 
+              className="relative w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-background shadow-[0_0_30px_hsl(var(--primary)/0.3)] z-10"
+            />
+          </div>
+
           {/* Animated greeting */}
-          <div className=" animate-fade-in">
+          <div className="animate-fade-in">
             <span className="text-primary font-mono text-lg">Hello, I'm</span>
           </div>
 

@@ -29,7 +29,7 @@ const About = () => {
                   <div className="flex items-center gap-3 mb-4">
                     <Calendar className="h-5 w-5 text-primary" />
                     <span className="text-lg font-semibold">
-                      1+ Years Experience
+                      3+ Years Experience
                     </span>
                   </div>
                   <div className="flex items-center gap-3">
