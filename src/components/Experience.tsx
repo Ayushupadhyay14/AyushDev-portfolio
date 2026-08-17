@@ -27,7 +27,7 @@ const Experience = () => {
       title: "Python Developer / Freelancer",
       company: "Growthify Services",
       location: "Full time",
-      period: "Jan 2025 – May 2025",
+      period: "Jan 2024 – April 2026",
       type: "Previous",
       achievements: [
         "Developed full-stack web and desktop applications with high performance and responsiveness",
